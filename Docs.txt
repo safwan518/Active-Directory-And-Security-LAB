@@ -1,0 +1,26 @@
+# Active Directory Lab Setup
+
+## Overview
+This lab demonstrates Active Directory administration using Windows Server 2022 and a Windows 10 domain client in Oracle VirtualBox.
+
+## Environment
+- **Domain:** corp.local
+- **Server OS:** Windows Server 2022 Standard Evaluation
+- **Client OS:** Windows 10
+- **Virtualization:** Oracle VirtualBox
+- **Server IP:** 192.168.100.10
+- **Client IP:** 192.168.100.20
+
+## Configuration
+- Installed and configured Active Directory Domain Services.
+- Joined the Windows 10 client to the domain.
+- Created departmental Organizational Units (OUs) for IT, HR, and Finance.
+- Created security groups for departmental access management.
+- Created a domain user and assigned group membership.
+- Applied Group Policy to restrict Control Panel access.
+
+## Purpose
+The lab provides practical experience in Windows system administration, identity management, domain configuration, and Group Policy.
+
+## Disclaimer
+This is an isolated educational lab. The domain and IP addresses are used for demonstration purposes.
